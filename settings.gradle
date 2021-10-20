@@ -1,0 +1,3 @@
+rootProject.name = 'speacle'
+include 'speacle-data', 'speacle-account', 'speacle-programs', 'speacle-security'
+
