@@ -1,4 +1,4 @@
-package com.iportfolio.speacle.account;
+package com.iportfolio.speacle.programs;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,8 +8,8 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @SpringBootApplication
 @EnableJpaRepositories("com.iportfolio.speacle")
 @EntityScan(basePackages = "com.iportfolio.speacle.data")
-public class SpeacleAccountApplication {
-    public static void main(String[] args){
-        SpringApplication.run(SpeacleAccountApplication.class, args);
+public class SpeacleProgramsApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(SpeacleProgramsApplication.class, args);
     }
 }

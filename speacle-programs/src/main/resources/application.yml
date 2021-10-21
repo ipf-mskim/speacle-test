@@ -1,0 +1,5 @@
+server:
+  port: 8081
+servers:
+  security:
+    url: "http://localhost:8082"
